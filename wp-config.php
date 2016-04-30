@@ -4,8 +4,8 @@ set_time_limit(0);
 /** Enable W3 Total Cache */
 define('WP_CACHE', true); // Added by W3 Total Cache
 
-define('WP_HOME','http://tutorbeyond.com');
-define('WP_SITEURL','http://tutorbeyond.com');
+define('WP_HOME','http://localhost/tutorbeyond/');
+define('WP_SITEURL','http://localhost/tutorbeyond/');
 /**
  * WordPress基础配置文件。
  *
@@ -27,13 +27,13 @@ define('WP_SITEURL','http://tutorbeyond.com');
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', 'tutorbeyond');
 
 /** MySQL数据库用户名 */
 define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', '1q2w3e4r5t@');
+define('DB_PASSWORD', '');
 
 /** MySQL主机 */
 define('DB_HOST', 'localhost');
